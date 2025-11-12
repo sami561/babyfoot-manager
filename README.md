@@ -45,12 +45,8 @@ At a minimum, you'll need to configure your database connection.
 Example `.env` file:
 
 ```
+DATABASE_URL=postgres://postgres:postgres@localhost:5432/babyfoot
 PORT=3000
-DB_USER=postgres
-DB_HOST=localhost
-DB_DATABASE=babyfoot
-DB_PASSWORD=postgres
-DB_PORT=5432
 ```
 
 ### 4. Database Setup
@@ -71,7 +67,7 @@ From the `backend` directory, start the development server:
 npm run dev
 ```
 
-The backend server will start on `http://localhost:3000` (or the port specified in your `.env` file).
+The backend server will start on `http://localhost:3000`
 
 ### 6. Access the Frontend
 
