@@ -76,3 +76,9 @@ Once the backend is running, the frontend will be served automatically. Open you
 ```
 http://localhost:3000
 ```
+## Screenshots
+
+### Game list & real-time chat
+![Babyfoot Manager screenshot](screenshots/babyfoot-screenshot.png)
+
+&gt; Replace the file name with the actual image(s) you added.
