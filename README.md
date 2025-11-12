@@ -4,18 +4,18 @@ This project is a web application for managing babyfoot (foosball) games, featur
 
 ## Features
 
-*   **Game Management:** Create, track, and manage babyfoot games.
-*   **Real-time Updates:** WebSockets for real-time communication (e.g., game state updates).
-*   **RESTful API:** Backend API for game-related operations.
-*   **PostgreSQL Database:** Persistent storage for game data.
+- **Game Management:** Create, track, and manage babyfoot games.
+- **Real-time Updates:** WebSockets for real-time communication (e.g., game state updates).
+- **RESTful API:** Backend API for game-related operations.
+- **PostgreSQL Database:** Persistent storage for game data.
 
 ## Prerequisites
 
 Before you begin, ensure you have the following installed:
 
-*   **Node.js:** (LTS version recommended)
-*   **npm** or **Yarn:** Package manager for Node.js.
-*   **Docker** and **Docker Compose:** For running the PostgreSQL database.
+- **Node.js:** (LTS version recommended)
+- **npm** or **Yarn:** Package manager for Node.js.
+- **Docker** and **Docker Compose:** For running the PostgreSQL database.
 
 ## Getting Started
 
@@ -24,7 +24,7 @@ Follow these steps to set up and run the project locally.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/babyfoot-manager.git
+git clone https://github.com/sami561/babyfoot-manager.git
 cd babyfoot-manager
 ```
 
@@ -34,7 +34,7 @@ Navigate to the `backend` directory and install dependencies:
 
 ```bash
 cd backend
-npm install # or yarn install
+yarn install
 ```
 
 ### 3. Environment Variables
@@ -80,4 +80,3 @@ Once the backend is running, the frontend will be served automatically. Open you
 ```
 http://localhost:3000
 ```
-
