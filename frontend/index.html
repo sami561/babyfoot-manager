@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BabyFoot Manager</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="games">
+        <div class="input-section">
+          <input
+            id="newGameInput"
+            type="text"
+            placeholder="Nouvelle partie ..."
+          />
+          <button id="addBtn">Ajouter</button>
+        </div>
+
+        <div class="games-section">
+          <div class="section-header">
+            <span class="title">Les parties</span>
+            <span class="counter" id="counter">0</span>
+          </div>
+          <ul id="gamesList"></ul>
+        </div>
+      </div>
+
+      <section class="chat-section">
+        <div class="section-header">
+          <span class="title">Tchat</span>
+        </div>
+
+        <ul id="messages" class="chat-list"></ul>
+
+        <form id="chatForm" class="chat-input">
+          <input
+            id="username"
+            type="text"
+            placeholder="Nickname …"
+            value="Moi"
+            maxlength="20"
+            required
+          />
+          <input id="input" type="text" placeholder="Message …" required />
+          <button type="submit">Envoyer</button>
+        </form>
+      </section>
+    </div>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
